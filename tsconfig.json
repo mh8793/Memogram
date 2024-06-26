@@ -1,13 +1,16 @@
 {
-  "files": [],
+  "$schema": "https://json.schemastore.org/tsconfig.json",
 
-  //shadcn
+  "compilerOptions": {
+    // ...
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
+
+  "files": [],
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -16,4 +19,5 @@
       "path": "./tsconfig.node.json"
     }
   ]
+}
 }
